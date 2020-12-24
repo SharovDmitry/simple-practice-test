@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://johnny-appleseed.clientsecure.me/client-portal-api/offices?filter%5BclinicianId%5D=2&filter%5BcptCodeId%5D=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.api+json
+      Api-Version:
+      - '2019-01-17'
+      Application-Build-Version:
+      - 0.0.0
+      Application-Platform:
+      - web
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 24 Dec 2020 10:24:45 GMT
+      Content-Type:
+      - application/vnd.api+json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Request-Id:
+      - d99b53d4-081e-45ed-97eb-f9a898bcc402
+      X-Download-Options:
+      - noopen
+      Etag:
+      - W/"9be6bec973bce03d9d57c4c4079e7bf5"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Runtime:
+      - '0.019702'
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"1","type":"offices","links":{"self":"https://johnny-appleseed.clientsecure.me/client-portal-api/offices/1"},"attributes":{"city":"Port
+        Alyssonbury","name":"Main Office","state":"NV","street":"Elise Drive","zip":"51859","phone":"(626)
+        298-1956","isVideo":false,"geolocation":{"lat":"41.503895","lng":"-74.349776"}}},{"id":"63968","type":"offices","links":{"self":"https://johnny-appleseed.clientsecure.me/client-portal-api/offices/63968"},"attributes":{"city":"Los
+        Angeles","name":"Therapy Center","state":"CA","street":"801 S Hope Street","zip":"90017","phone":"(626)
+        298-1956","isVideo":false,"geolocation":{"lat":"34.046471","lng":"-118.259515"}}},{"id":"3781352","type":"offices","links":{"self":"https://johnny-appleseed.clientsecure.me/client-portal-api/offices/3781352"},"attributes":{"city":"Santa
+        Monica","name":"Downtown Office","state":"CA","street":"510 Arizona Ave","zip":"90401","phone":"(626)
+        298-1956","isVideo":false,"geolocation":{"lat":"34.018663","lng":"-118.495297"}}}],"links":{"first":"https://johnny-appleseed.clientsecure.me/client-portal-api/offices?page%5Bnumber%5D=1&page%5Bsize%5D=10","last":"https://johnny-appleseed.clientsecure.me/client-portal-api/offices?page%5Bnumber%5D=1&page%5Bsize%5D=10"}}'
+  recorded_at: Thu, 24 Dec 2020 10:24:46 GMT
+recorded_with: VCR 6.0.0
