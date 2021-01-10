@@ -22,9 +22,5 @@ module ApiService
         'application-platform' => 'web'
       }
     end
-
-    def parse(response)
-      JSON.parse(response.body)
-    end
   end
 end

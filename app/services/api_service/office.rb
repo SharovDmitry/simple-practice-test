@@ -3,8 +3,7 @@
 module ApiService
   class Office < ApiService::Base
     def get_all
-      response = self.class.get('/offices', @options)
-      parse(response)
+      self.class.get('/offices', @options)
     end
   end
 end
